@@ -25,6 +25,7 @@ Explanation: There are three ways to climb to the top.
 1 <= n <= 45
 ```
 # Solution
+## Approach 1
 ```ruby
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -39,4 +40,15 @@ class Solution:
             memo[i] = climb(i+1, n, memo) + climb(i+2, n, memo)
             return memo[i]
         return climb(0, n, memo)
+```
+## Approach 2
+```ruby
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        one, two = 1,1
+        for i in range(n-1):
+            temp = one
+            one = one+two
+            two = temp
+        return one
 ```
