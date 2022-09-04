@@ -83,7 +83,7 @@ class Solution:
         ret.append(curr_column)
         return ret
 ```
-**Approach 2**
+**Approach 2: BFS**
 ```ruby
 # Definition for a binary tree node.
 # class TreeNode:
