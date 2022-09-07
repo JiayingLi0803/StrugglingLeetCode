@@ -29,6 +29,7 @@ Output: false
 Follow up: Could you solve it without loops/recursion?
 
 # Solution
+**Approach 1: Recursive**
 ```ruby
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
@@ -40,4 +41,12 @@ class Solution:
                     return True
                 else:
                     return False
+```
+**Approach 2: n & (n - 1)**
+```ruby
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        if n == 0:
+            return False
+        return n & (n-1) == 0
 ```
