@@ -42,11 +42,19 @@ class Solution:
                 else:
                     return False
 ```
-**Approach 2: n & (n - 1)**
+**Approach 2: n & (n - 1) == 0**
 ```ruby
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n == 0:
             return False
         return n & (n-1) == 0
+```
+**Approach 3: n & (-n) == n**
+```ruby
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        if n == 0:
+            return False
+        return n & (-n) == n
 ```
