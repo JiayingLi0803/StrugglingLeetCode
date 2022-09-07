@@ -43,6 +43,10 @@ class Solution:
                     return False
 ```
 **Approach 2: n & (n - 1) == 0**
+
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem231_1.png)
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem231_2.png)
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem231_3.png)
 ```ruby
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
@@ -51,6 +55,9 @@ class Solution:
         return n & (n-1) == 0
 ```
 **Approach 3: n & (-n) == n**
+
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem231_4.png)
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem231_5.png)
 ```ruby
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
