@@ -30,6 +30,32 @@ All the numbers of nums are unique.
 
 Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
 # Solution
-**Approach 1: **
-
-**Approach 2: Hash Map**
+**Approach 1: Sorting**
+```ruby
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        nums.sort()
+        if len(nums)-1 == nums[-1]:
+            return nums[-1]+1
+        for i in range(len(nums)):
+            if nums[i] != i:
+                return i
+```
+**Approach 2: Hash Map (Set Difference)**
+```ruby
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        numSet = set(nums)
+        fullSet = set(i for i in range(len(nums)+1))
+        return list(fullSet-numSet)[0]
+```
+**Approach 3: Hash Map (Set)**
+```ruby
+class Solution:
+    def missingNumber(self, nums):
+        num_set = set(nums)
+        n = len(nums) + 1
+        for number in range(n):
+            if number not in num_set:
+                return number
+```
