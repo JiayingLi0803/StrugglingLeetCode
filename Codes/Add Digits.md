@@ -41,3 +41,19 @@ class Solution:
         else:
             return recurAdd(num)
 ```
+**Approach 2: mod 9**
+```ruby
+class Solution:
+    def addDigits(self, num: int) -> int:
+        return 1 + (num - 1) % 9 if num else 0
+```
+Or
+```ruby
+class Solution:
+    def addDigits(self, num: int) -> int:
+        if num == 0:
+            return 0
+        if num % 9 == 0:
+            return 9
+        return num % 9
+```
