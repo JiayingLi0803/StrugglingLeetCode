@@ -25,6 +25,7 @@ Output: 1
 Each element in the array appears twice except for one element which appears only once.
 ```
 # SOlution
+**Approach 1: Counting**
 ```ruby
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
@@ -32,4 +33,45 @@ class Solution:
         for key, value in countDict.items():
             if value==1:
                 return key
+```
+**Approach 2: Math**
+
+$2∗(a+b+c)−(a+a+b+b+c)=c$
+```ruby
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        return 2 * sum(set(nums)) - sum(nums)
+```
+**Approach 3: Bit Manipulation**
+```ruby
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        a = 0
+        for i in nums:
+            a ^= i
+        return a
+```
+**Approach 4: List operation**
+```ruby
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        no_duplicate_list = []
+        for i in nums:
+            if i not in no_duplicate_list:
+                no_duplicate_list.append(i)
+            else:
+                no_duplicate_list.remove(i)
+        return no_duplicate_list.pop()
 ```
