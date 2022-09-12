@@ -24,7 +24,7 @@ Output: true
 ransomNote and magazine consist of lowercase English letters.
 ```
 # Solution
-**Approach 1: Two Hash Maps**
+**Approach 1: Two Hash Tables**
 ```ruby
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
@@ -39,7 +39,7 @@ class Solution:
                 return False
         return True
 ```
-**Approach 2: One Hash Map**
+**Approach 2: One Hash Table**
 ```ruby
 def canConstruct(self, ransomNote: str, magazine: str) -> bool:
     
