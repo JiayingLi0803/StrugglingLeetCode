@@ -7,8 +7,8 @@ Return the smallest sorted list of ranges that cover every missing number exactl
 
 Each range [a,b] in the list should be output as:
 
-- "a->b" if a != b
-- "a" if a == b
+- ```"a->b" if a != b```
+- ```"a" if a == b```
 
 **Example 1:**
 ```
