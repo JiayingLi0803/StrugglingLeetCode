@@ -26,7 +26,7 @@ Follow up: Could you solve it both recursively and iteratively?
 ```
 
 # Solution
-**Approach 1: Recursion**
+**Approach 1: Recursion (DFS)**
 ```ruby
 # Definition for a binary tree node.
 # class TreeNode:
@@ -44,6 +44,32 @@ class Solution:
             return tree1.val == tree2.val and isMirror(tree1.left, tree2.right) and isMirror(tree1.right, tree2.left)
         return isMirror(root, root)
 ```
-**Approach 2: Iteration**
+**Approach 2: Iteration (BFS)**
 ```ruby
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        if not root:
+            return True
+        que = collections.deque()
+        que.append(root.left)
+        que.append(root.right)
+        while que:
+            left, right = que.popleft(), que.popleft()
+            if not left and not right:
+                continue
+            if not right or not left:
+                return False
+            if left.val != right.val:
+                return False
+            que.append(left.left)
+            que.append(right.right)
+            que.append(left.right)
+            que.append(right.left)
+        return True
 ```
