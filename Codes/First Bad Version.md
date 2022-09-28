@@ -25,7 +25,18 @@ Output: 1
 1 <= bad <= n <= 2**31 - 1
 ```
 # Solution
-**Approach 1: Recursion**
+**Approach 1: Recursion (Time Limit Exceeded)**
+```ruby
+# The isBadVersion API is already defined for you.
+# def isBadVersion(version: int) -> bool:
+
+class Solution:
+    def firstBadVersion(self, n: int) -> int:
+        for i in range(n):
+            if isBadVersion(i):
+                return i
+        return n
+```
 
 **Approach 2: Two Pointers**
 ```ruby
