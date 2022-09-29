@@ -43,6 +43,7 @@ Explanation: The intersected node's value is 2 (note that this must not be 0 if 
 From the head of A, it reads as [1,9,1,2,4]. From the head of B, it reads as [3,2,4]. There are 3 nodes before the intersected node in A; There are 1 node before the intersected node in B.
 ```
 **Example 3:**
+
 ![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem160_4.png)
 ```
 Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
@@ -63,7 +64,7 @@ intersectVal is 0 if listA and listB do not intersect.
 intersectVal == listA[skipA] == listB[skipB] if listA and listB intersect.
 ```
 
-**Follow up:** Could you write a solution that runs in O(m + n) time and use only O(1) memory?
+**Follow up:** Could you write a solution that runs in ``O(m + n)`` time and use only ``O(1)`` memory?
 # Solution
 ```ruby
 # Definition for singly-linked list.
