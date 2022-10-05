@@ -39,4 +39,26 @@ class Solution:
         sumlist.append(nums[-1])
         return max(sumlist)
 ```
-**Approach 2: 
+**Approach 2: Divide and Conquer**
+```ruby
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        def divide(nums, left, right):
+            if left>right:
+                return -math.inf
+            mid = (left+right)//2
+            # left half
+            leftHalfAdd, rightHalfAdd, curr = 0, 0, 0
+            for i in range(mid-1, left-1, -1):
+                curr += nums[i]
+                leftHalfAdd = max(leftHalfAdd, curr)
+            curr = 0
+            for i in range(mid+1, right+1):
+                curr += nums[i]
+                rightHalfAdd = max(rightHalfAdd, curr)
+            combineAdd = nums[mid] + rightHalfAdd+leftHalfAdd
+            left_half = divide(nums, left, mid - 1)
+            right_half = divide(nums, mid + 1, right)
+            return max(combineAdd, left_half, right_half)
+        return divide(nums, 0, len(nums) - 1)
+```
