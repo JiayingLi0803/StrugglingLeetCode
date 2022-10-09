@@ -1,4 +1,4 @@
-Welcome to the StrugglingLeetCode wiki!
+Welcome to the StrugglingLeetCode Page!
 
 # Integers
 ## Basic Math
