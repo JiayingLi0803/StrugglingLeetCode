@@ -168,6 +168,8 @@ while right < len(s):
 
 [Problem 48: Rotate Image (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Rotate%20Image.md)
 
+[Problem 48: Rotate Image (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Rotate%20Image.md)
+
 [Problem 118: Pascal's Triangle (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Pascal's%20Triangle.md)
 
 [Problem 422: Valid Word Square (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Valid%20Word%20Square.md)
