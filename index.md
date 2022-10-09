@@ -387,6 +387,8 @@ def DFS(graph, s):
 ---
 
 # Sorting
+[Problem 49: Group Anagrams (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Group%20Anagrams.md)
+
 [Problem 56: Merge Intervals (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Merge%20Intervals.md)
 
 [Problem 88: Merge Sorted Array (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Merge%20Sorted%20Array.md)
