@@ -1,4 +1,4 @@
-Welcome to the StrugglingLeetCode Page!
+Welcome to the StrugglingLeetCode Page! This page is built to record Jiaying's LeetCode Solutions.
 
 # Integers
 ## Basic Math
