@@ -231,6 +231,8 @@ pop()          #Deletes the topmost element of the stack – Time Complexity: O(
 # Hash Table
 **Problems**
 
+[Problem 41: First Missing Positive (Hard)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/First%20Missing%20Positive.md)
+
 [Problem 136: Single Number](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Single%20Number.md)
 
 [Problem 160: Intersection of Two Linked List (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Intersection%20of%20Two%20Linked%20Lists.md)
