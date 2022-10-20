@@ -463,6 +463,8 @@ class ListNode:
 
 [Problem 53: Maximum Subarray (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Maximum%20Subarray.md)
 
+[Problem 322: Coin Change (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Coin%20Change.md)
+
 ---
 
 # Uncommon Algorithms
