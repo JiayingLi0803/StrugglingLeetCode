@@ -174,6 +174,8 @@ while right < len(s):
 
 [Problem 422: Valid Word Square (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Valid%20Word%20Square.md)
 
+[Problem 463: Island Perimeter (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Island%20Perimeter.md)
+
 [Problem 1329: Sort the Matrix Diagonally (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Sort%20the%20Matrix%20Diagonally.md)
 
 ## Recursion
