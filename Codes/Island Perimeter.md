@@ -7,7 +7,7 @@ The island doesn't have "lakes", meaning the water inside isn't connected to the
 
 **Example 1:**
 
-![]()
+![](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Figures/Problem463.png)
 ```
 Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
 Output: 16
