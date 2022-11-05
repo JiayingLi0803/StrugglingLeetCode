@@ -28,6 +28,8 @@ Welcome to the StrugglingLeetCode Page! This page is built to record Jiaying's L
 ## Basic Operations
 **Problem**
 
+[Problem 12: Integer to Roman (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Integer%20to%20Roman.md)
+
 [Problem 157: Read N Characters Given Read4 (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Read%20N%20Characters%20Given%20Read4.md)
 
 [Problem 389: Find the Difference (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Find%20the%20Difference.md)
