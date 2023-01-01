@@ -366,6 +366,8 @@ def BFS(graph, s):
 
 [Problem 39: Combination Sum (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Combination%20Sum.md)
 
+[Problem 818: Race Car (Hard)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Race%20Car.md)
+
 ## DFS (Depth-First Search)
 
 **Key Idea**
