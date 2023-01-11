@@ -330,6 +330,8 @@ while i < j:
 
 [Problem 26: Remove Duplicates from Sorted Array (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Remove%20Duplicates%20from%20Sorted%20Array.md)
 
+[Problem 75: Sort Colors (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Sort%20Colors.md)
+
 [Problem 278: First Bad Version (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/First%20Bad%20Version.md)
 
 [Problem 344: Reverse String (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Reverse%20String.md)
