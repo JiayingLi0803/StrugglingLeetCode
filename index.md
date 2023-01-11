@@ -441,6 +441,8 @@ class ListNode:
 
 [Problem 141: Linked List Cycle (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Linked%20List%20Cycle.md)
 
+[Problem 876: Middle of the Linked List (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Middle%20of%20the%20Linked%20List.md)
+
 ## Editing
 **Problems**
 
