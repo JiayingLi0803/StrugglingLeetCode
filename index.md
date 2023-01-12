@@ -159,6 +159,8 @@ while right < len(s):
 
 [Problem 252: Meeting Rooms (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Meeting%20Rooms.md)
 
+[Problem 287: Find the Duplicate Number (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Find%20the%20Duplicate%20Number.md)
+
 [Problem 338: Counting Bits (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Counting%20Bits.md)
 
 [Problem 412: Fizz Buzz (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Fizz%20Buzz.md)
