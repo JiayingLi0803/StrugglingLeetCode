@@ -52,6 +52,8 @@ s = s[::-1]
 
 [Problem 9: Palindrome Number (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Palindrome%20Number.md)
 
+[Problem 151: Reverse Words in a String (Medium)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Reverse%20Words%20in%20a%20String.md)
+
 [Problem 246: Strobogrammatic Number (Easy)](https://github.com/JiayingLi0803/StrugglingLeetCode/blob/main/Codes/Two%20Sum.md)
 
 ## Splitting Strings
